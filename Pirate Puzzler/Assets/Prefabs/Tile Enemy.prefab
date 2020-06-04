@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &4685651214182817241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670858203440294789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb4a3c4a151b1a4591dc64dd3baf5b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectToSpawn: {fileID: 2800057443878233159, guid: 3acbdba1902994041b9bf5ebb54d36fe,
+    type: 3}
+--- !u!1001 &2332347863922551311
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1922151832552432420, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: OnInitializedEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922151832552432420, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: OnInitializedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922151832552432420, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: OnInitializedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922151832552432420, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: OnInitializedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4685651214182817241}
+    - target: {fileID: 1922151832552432420, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: OnInitializedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922151832552432420, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: OnInitializedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278358706984658, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c472f7fe1cb8c1048b4efde94632830c, type: 2}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709897, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959278359458709898, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+        type: 3}
+      propertyPath: m_Name
+      value: Tile Enemy Spawn Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b, type: 3}
+--- !u!1 &670858203440294789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2959278359458709898, guid: 57b6f7e1baceaaf42b3b2d3d3c01096b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2332347863922551311}
+  m_PrefabAsset: {fileID: 0}
